@@ -30,15 +30,15 @@ environment. You can follow the official
 
 ### Initialization
 
-The first step is to initialize the workspace folder (``my-workspace``) where
+The first step is to initialize the workspace folder (``zephyr-ws``) where
 the ``example-application`` and all Zephyr modules will be cloned. You can do
 that by running:
 
 ```shell
-# initialize my-workspace for the example-application (main branch)
-west init -m https://github.com/zephyrproject-rtos/example-application --mr main my-workspace
+# initialize zephyr-ws for the example-application (main branch)
+west init -m https://github.com/zephyrproject-rtos/example-application --mr main zephyr-ws
 # update Zephyr modules
-cd my-workspace
+cd zephyr-ws
 west update
 ```
 
